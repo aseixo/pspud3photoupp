@@ -1,0 +1,5 @@
+Un servidor de fotografías envía aos usuarios da rede o arquivo que é solicitado.
+Implementa unha solución a este problema empregando o protocolo UDP.
+Simplifica o exercicio empregando un único cliente e que só hai unha fotografía disponíbel.
+O cliente solicita o inicio da transmisión e o servidor DEBE ENVIAR a palabra reservada END cando finaliza.
+Nota: un tamaño de buffer de transmisión pode ser 1024 bytes.
