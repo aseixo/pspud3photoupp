@@ -14,8 +14,8 @@ public class PhotoClient {
     public static void main(String[] args) throws IOException {
 
         InetAddress address = InetAddress.getByName(SERVER_IP);
-        System.out.println("Server connected on " + address.toString());
-        System.out.println("Server is reacheable " + address.isReachable(2000));
+        System.out.println("Servidor conectado en " + address.toString());
+        System.out.println("Servidor activo s/n " + address.isReachable(2000));
         byte[] connData = {1};
         DatagramSocket client = new DatagramSocket();
         DatagramPacket connPacket = new DatagramPacket(connData, connData.length, address, SERVER_PORT);

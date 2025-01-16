@@ -46,6 +46,6 @@ public class PhotoServer {
         DatagramPacket endPacket = new DatagramPacket(end, end.length, clientAddress, clientPort);
         photoServer.send(endPacket);
         photoServer.close();
-        System.out.println("Paquetes enviados ".concat(String.valueOf(numPackets)));
+        System.out.println("Número de datagramas enviados ".concat(String.valueOf(numPackets)));
     }
 }
